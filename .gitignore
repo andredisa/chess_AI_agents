@@ -1,0 +1,63 @@
+agents/__init__.py
+chess_logic/__init__.py
+config/__init__.py
+ui/__init__.py
+utils/__init__.py
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+var/
+*.bak
+*.swp
+
+# Virtual environment
+venv/
+env/
+ENV/
+venv.bak/
+env.bak/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# IDEs and text editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.vscode/
+
+# Python test directories
+tests/
+*.log
+
+# Cache files
+.cache/
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# OpenAI API key file (if stored locally)
+openai_api_key.txt
+
+# Local environment config (if any)
+config_local/
