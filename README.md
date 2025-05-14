@@ -45,7 +45,7 @@ pip install -r requirements.txt
 chess_AI_agents/
 ├── app.py              # 🚀 Main Streamlit app that runs the interface and integrates all components.
 ├── config/        # 📂 Configuration files.
-│   └── settings.py     # 🛠️ Contains settings
+│   └── settings.py     # 🛠️ Contains the number of turns
 ├── agents/        # 📂 Agent-related files.
 │   ├── base.py         # 🧠 Abstract class for all chess agents.
 │   └── game_agents.py  # 🤖 Concrete AI chess agents.
@@ -58,7 +58,7 @@ chess_AI_agents/
 │   └── session.py      # ⏳ Manages session state and interactions.
 ├── requirements.txt    # 📜 Python dependencies.
 ├── README.md           # 📄 Project documentation.
-└── LICENSE          # 📝 MIT License.
+└── LICENSE             # 📝 MIT License.
 
 
 ```
