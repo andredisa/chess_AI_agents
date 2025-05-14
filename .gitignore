@@ -56,8 +56,5 @@ bower_components/
 .DS_Store
 Thumbs.db
 
-# OpenAI API key file (if stored locally)
-openai_api_key.txt
-
-# Local environment config (if any)
+# Local environment config
 config_local/
