@@ -99,6 +99,13 @@ streamlit run app.py
 
 - ♟️ Choose the **number of turns** (recommended: 5–10 for demo)
 
+    - You can also set the default number of turns in the config file:
+        > In `config/settings.py`, modify the constant:
+        ```python
+        DEFAULT_MAX_TURNS = 5
+        ```
+
+
 - ▶️ Click **Start Game** to begin the AI chess match
 
 ---
